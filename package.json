@@ -1,6 +1,6 @@
 {
-  "name": "node-arduino",
-  "version": "1.7.3",
+  "name": "@csdts/csdt-arduino",
+  "version": "1.7.4",
   "description": "A tool to visualize Arduino data in the browser.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,12 +15,12 @@
     "data",
     "visualize"
   ],
-  "author": "Ethan Riley <ethanmriley@gmail.com> (https://github.com/ethanmriley)",
+  "author": "Orig. Ethan Riley - Current Silly Ivnentor <SillyInventor@gmail.com> (https://github.com/SillyInventor)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ethanmriley/node-arduino/issues"
+    "url": "https://github.com/CSDTs/node-arduino/issues"
   },
-  "homepage": "https://github.com/ethanmriley/node-arduino#readme",
+  "homepage": "https://github.com/CSDTs/node-arduino#readme",
   "dependencies": {
     "commander": "^2.11.0",
     "opn": "^5.1.0",
@@ -28,6 +28,6 @@
     "ws": "3.1.0"
   },
   "bin": {
-    "node-arduino": "./node-arduino.js"
+    "csdt-arduino": "./node-arduino.js"
   }
 }
